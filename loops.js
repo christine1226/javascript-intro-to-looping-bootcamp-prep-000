@@ -12,7 +12,7 @@ function forLoop(array){
     if (i===1){
       array.push(`I am 1 strange loops.`);
     } else {
-      array.push(`I am ${i} strange loops.`);
+      array.push(`I am ${i++} strange loops.`);
     }
   }
   return array;
