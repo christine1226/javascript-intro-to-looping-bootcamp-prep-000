@@ -10,8 +10,9 @@ function whileLoop(n){
 function forLoop(array){
   for(let i=1; i<25; i++){
     if (i===1){
-      return "I am 1 strange loops."
-    } else { return "I am ${i} strange loops."
+      console.log("I am 1 strange loops.")
+    } else { console.log("I am ${i} strange loops.")
     }
   }
+  return array;
 }
