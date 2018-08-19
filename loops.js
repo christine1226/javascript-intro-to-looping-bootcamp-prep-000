@@ -1,6 +1,8 @@
 
 function whileLoop(n){
-  while(n>=0){
-  i=0; n>=0; i--}
+  let countdown = n;
+  while(countdown>0){
+    console.log(countdown--);
+  }
   return "done"
 }
