@@ -22,9 +22,10 @@ function doWhileLoop(array){
   function maybeTrue(){
     return math.random() >= 0.5;
   }
-  function incrementVariable(){
-    i = i +1;
-    incrementVariable.pop()
-    return false;
+  do{
+    array.pop()
   }
+  while (array.length> -1 && maybeTrue());
+    return array;
+
 }
